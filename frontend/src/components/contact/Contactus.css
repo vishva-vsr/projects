@@ -1,0 +1,69 @@
+.custom-inputs {
+  background-color: transparent; 
+  border: none; 
+  border-bottom: 3px solid rgb(255, 255, 255);
+  border-radius: 0; 
+  outline: none; 
+}
+
+.custom-inputs:focus {
+  box-shadow: none; 
+  border-bottom: 3px solid #FFC100;
+}
+
+#label12 {
+  color: #ffffff; 
+}
+.custom-inputs::placeholder {
+  color: white; 
+  opacity: 1;   
+}
+body{
+  background-color: #161618;
+  font-family: 'poppins';
+}
+#bg-bg{
+  background-color: #1F1F21;
+  border-radius: 15px;
+
+
+ 
+}
+
+.selectable {
+  cursor: pointer;
+}
+.button-like {
+  cursor: pointer;
+  background-color: #161618; /* Background color for button look */
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  width: 50%;
+}
+
+.button-like:hover {
+width: 50%; 
+background: rgba(255, 191, 0, 0.466);
+border-radius: 8px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.9px);
+-webkit-backdrop-filter: blur(4.9px);
+border: 2px solid rgb(255, 191, 0);
+}
+
+.button-like:active {
+width: 50%;  
+background: rgba(255, 191, 0, 0.488);
+border-radius: 8px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.9px);
+-webkit-backdrop-filter: blur(5px);
+border: 2px solid rgb(255, 191, 0); 
+}
+#input-xx{
+  width: 80%;
+}
+
+
+

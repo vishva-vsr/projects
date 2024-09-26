@@ -1,0 +1,68 @@
+.carousel-container {
+  overflow: hidden;
+  width: 100%; /* Adjust based on your container size */
+}
+
+.carousel-track {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.carousel-image {
+  width: 500px; /* Adjust image size */
+  height: 270px;
+  margin-right: 10px; /* Space between images */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.cur-adjs2{
+  position: absolute;
+  bottom: 13%;
+}
+
+.eclipse1{
+  height: 69px;
+  width: 110%;
+  background-color: #161618;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+  justify-content: center;
+  left: -53px;
+  margin-top: 1%;
+}
+.eclipse2{
+  height: 69px;
+  width: 110%;
+  background-color:#161618;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+  justify-content: center;
+  left: -53px;
+  bottom: 11%;
+  margin-bottom: 1%;
+}
+
+body{
+  background: #161618;
+
+}
+
+@media (max-width: 800px) {
+  .eclipse2{
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .eclipse1{
+    display: none;
+  }
+}

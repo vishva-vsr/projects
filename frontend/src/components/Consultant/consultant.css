@@ -1,0 +1,79 @@
+#ones{
+    font-size: 17em;
+}
+#tabs1{
+    font-size: 35px;
+    background-color: white;
+    border-radius: 70px;
+    
+}
+
+
+@media (max-width: 768px) {
+    #ones {
+        font-size: 8em; 
+        margin-top: 30%;
+    }
+}
+
+@media (max-width: 576px) {
+    #ones {
+        font-size: 5em;
+        margin-top: 30%;
+    }
+}
+@media (max-width: 476px) {
+    #ones {
+        font-size: 4em;
+        margin-top: 50%;
+        
+    }
+}
+@media (max-width: 370px) {
+    #tabs1{
+       font-size: 5px;
+       padding: 1%;
+    }
+}
+@media (max-width: 768px) {
+    #tabs1{
+       font-size: 20px;
+       padding: 2%;
+    }
+}
+@media (max-width: 476px) {
+    #tabs1{
+        font-size: 15px;
+        
+    }
+}
+
+
+.bg-secondarys{
+    background-color: rgb(29, 29, 29);
+    max-width: auto;
+   
+}
+body{
+    overflow-x:hidden
+}
+
+.buttons {
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: #000000;
+    
+    font-size: 16px;
+    transition: all .1s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 15px 40px;
+    border: solid rgb(0, 0, 0);
+    outline: 1px solid #ffffff;
+    outline-offset: 2px 10px;
+    border-spacing: 15px 50px;
+   
+
+  }

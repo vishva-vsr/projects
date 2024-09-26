@@ -1,0 +1,35 @@
+#sen-3 {
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
+.marquee-container1 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+}
+
+.marquee-text1 {
+  display: flex; 
+  white-space: nowrap;
+  animation: marquee 10s linear infinite; 
+  color: black;
+  font-weight: bold;
+  font-size: 120px;
+}
+
+.marquee-text1 span {
+  padding-right: 100px; 
+}
+
+@keyframes marquee {
+  0% {
+      transform: translateX(0%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}

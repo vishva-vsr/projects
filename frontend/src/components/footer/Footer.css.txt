@@ -1,0 +1,201 @@
+body{
+    background-color: #262626;
+}
+#Main-container{
+    margin-top: 50px;
+}
+#pics{
+    position: absolute;
+  right: 92%;
+}
+#location{
+    position: absolute;
+    
+}
+
+
+
+#border{
+   position: absolute;
+   top: 60%;
+   width: 90%;
+}
+#span{
+    position: absolute;
+    top: 35%;
+}
+#span-1{
+    position: absolute;
+    top: 20%;
+}
+#foot-items{
+    text-align: center;
+   gap: 20px;
+   position: absolute;
+   left: 29%;
+   top:33%;
+}
+#B-icons{
+    position: absolute;
+    top: 63%;
+    left: 85%;
+    gap: 10px;
+}
+
+
+  #Wrapper{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+    top: 10px;
+    
+    
+    }
+    #Wrapper input{
+        background-color: white;
+    position: relative;
+        border-radius: 50px;
+         
+        border:2px  solid white;
+        padding: 1rem 2rem;
+      width: 380px;
+    
+      
+    }
+    #Wrapper button{
+       background-color: yellow;
+        border-radius: 30px;
+        height: 80%;
+        width: 50%;
+        aspect-ratio: 1;
+        border: 2px solid white;
+        position: absolute;
+        left: 50%;
+        
+        transform: translateX(-10%);
+        top: 8%;
+    }
+    
+  
+
+  
+  /* Responsive adjustments */
+  @media (max-width: 767px) {
+    /* Adjusting column layout for smaller screens */
+    .row {
+      flex-direction: column;
+    }
+    .col-lg-2, .col-lg-3, .col-md-6 {
+      flex: 1;
+      margin-bottom: 20px;
+    }
+  
+    /* Footer text alignment */
+    .text-white {
+      text-align: center;
+    }
+    #pics{
+        position: absolute;
+        left: 10%;
+        top: 10%;
+    }
+     #span {
+        display: block;
+        /* margin-bottom: 10px; */
+        position: absolute;
+        top: 260%;
+        left: 15%;
+       
+  
+      }
+      #span-1{
+        
+        position: absolute;
+        top: 20%;
+        top: 60%;
+        left: 25%;
+      }
+      #location{
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        
+    }
+    #customerSupport{
+        position: absolute;
+        top: 37%;
+        right: 5%;
+    }
+    #accessibility{
+       position: absolute;
+       top: 68%;
+       right: 5%;
+
+
+    }
+    #cunsult{
+        position: absolute;
+        top: 99%;
+        right: 5%;
+    }
+    #Wrapper{
+        position: absolute;
+        left: 35%;
+        width: 300px;
+        top: 120%;
+
+    }
+    #Wrapper button{
+        position: absolute;
+        left: 58%;
+        height: 50px;
+        width: 45%;
+        
+
+    }
+    #border{
+        position: absolute;
+        top: 140%;
+        right: 10%;
+        width: 90%;
+
+    }
+    #foot-items{
+        position: absolute;
+        left: 30%;
+        top: 75%;
+    }
+    #B-icons{
+        position: absolute;
+        top: 155%;
+        padding: 10px;
+       left: 40%;
+    }
+
+  }
+  
+  @media (max-width: 576px) {
+    /* Further adjustments for very small screens */
+    #span-1, #span {
+      display: block;
+      /* margin-bottom: 10px; */
+     
+
+    }
+  
+    #Wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #Wrapper input {
+      margin-bottom: 10px;
+    }
+  
+    #border {
+      text-align: center;
+      position: absolute;
+     
+  
+    }
+  }

@@ -1,0 +1,102 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.carousel-section {
+  position: relative;
+  height: 300vh;
+  background-color: #1a1a1a;
+}
+
+.carousel-wrapper {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-content {
+  display: flex;
+  gap: 20px;
+}
+
+.card-container {
+  position: relative;
+  height: 550px;
+  width: 550px;
+  overflow: hidden;
+  border-radius: 20px%;
+}
+
+.card-image {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: left;
+  border-radius: 30px;
+ 
+}
+
+
+
+.card-content {
+  display: flex;
+  padding: 20px;
+}
+
+.card-container2 {
+  position: relative;
+  height: 450px;
+  width: 900px;
+  overflow: hidden;
+}
+
+
+@media (max-width: 900px) {
+  .carousel-section {
+    height: auto;
+    margin-bottom: 5%;
+    margin-left: 6%;
+  }
+
+  .carousel-wrapper {
+    position: relative; 
+    height: auto;
+    overflow: visible; 
+  }
+
+  .carousel-content {
+    flex-direction: column;
+    gap: 40px; 
+  }
+
+  .card-container,
+  .card-container2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    border-radius: 15px;
+  }
+
+  .card-content {
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+
+#one {
+  font-size: 50px;
+  display: inline;
+}
